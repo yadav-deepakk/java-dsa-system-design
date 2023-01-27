@@ -1,0 +1,47 @@
+Q1: What is a computer ?
+A1: Computer is an electornic device or a system which stores and processes the data
+in binary format. It has several components in order to do the information processing
+and storing. Mainly those parts/components are CPU(Processor), Memory(RAM, HDD/SSD)
+and Input and Output devices. 
+There are 4 types of computers
+1. Super Computer - 
+2. Mainframe Computer - 
+3. Mini Computer - 
+4. Micro Computer - 
+
+
+Q2: What is RAM?
+A2: RAM Stands for Random Access Memory. It is component in computer system which is 
+responsible for storing the temporary data which processor is doing its processing. RAM 
+has several other names like primary memory (because it is directly contacted by to processor
+for data), Volatile memory (because data stays on this device until power supply is given), 
+Main Memory (as it is mainly access stores and processes the data). It uses semi-conductor 
+chips to store and keep the data. It is fastest memoery after cache in computer system. Basic 
+unit on primary memory is byte(8 bits).  
+
+
+Q3: Where is data stored in a computer?
+A3: Data is stored on secondary storage devices such as HDD(Hard Disk Drive) and 
+SSD(Solid State Drive) as data remains there in if power supply is not given.
+
+
+Q4: What is that input device used to type text and numbers on a document in the computer system?
+A4: Keyboard
+
+
+Q5: What are the output devices?
+A5: Output devices are parts which are used to show outcome of processing by CPU. There are several
+output devices Monitor, printers, speakers, headphone etc.
+
+
+Q6: Which is the input device that allows a user to move the cursor or pointer on the screen?
+A6: Mouse
+
+
+Q7: Which language is directly understood by the computer without a translation pro%r3m?
+A7: Machine level language (bitstream of 0's and 1's)
+
+
+Q8: What are Input devices?
+A8: Input devices are devices which takes information from user/surrounding for processing. 
+below are some input devices - keyboard, mouse, camera, microphone, touchpad etc.
