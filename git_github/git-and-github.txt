@@ -1,0 +1,50 @@
+Q1: What is Git?
+A1: Git is a distributed version control system developed by Linus Torvalds in 2005. Git is a popular
+    protocol used to track the changes and keep then saved over time. And combines everyone’s work to 
+    produce a same product with all features. 
+
+
+Q2: What do you understand by the term 'Version Control System'?
+A2: Version controlling in software development means tacking the changes of source code and files. 
+    By doing version controlling software developers just create new versions after making changes 
+    or rolling back the changes to the previous version. 
+
+
+Q3: What is GitHub?
+A3: GitHub is a web based service to host remote repositories. GitHub gives you a collaborative 
+    environment to work on same project. All develpoers keep their changes in local repository and
+    also pull changes from remote repository. 
+
+
+Q4: Mention some popular Git hosting services?
+A4: GitHub and BitBucket
+
+
+Q5: Different typs of version control system?
+A5: They are as follows
+    1) Central Version Control System - 
+        Drawback - all developeres are working on project have dependency on central a repository. 
+        Eg. CVS, Subversion, perforce
+
+    2) Distributed Version Control System - 
+        Advantage - All developer have snapshot of remote repo as well as they maintain a local repo.
+        Eg - git, Mercurial, Darcs, Bazaar etc.
+
+
+Q6: What benefit comes with using GIT?
+A6: Advantages of using git - 
+    1) It is a distributed VCS so if remote repository goes down under any circumstances, all developers
+       will still have access to their remote repo which they pulled from remote repository. 
+    2) Collaboration between all developers becomes easy and they can work parallely on same project. 
+    3) Gives facility to create and work on branches. 
+    4) Easy rollbacks to previous version if features are not required or chages in requirement. 
+
+
+Q7: What is a Git repository?
+A7: A git repository is a directory/folder initialised with 'git init' command. This git repository
+    will track all the changes made to files over time. 
+
+
+Q8: How can you initialize a repoIitory in Git?
+A8: open terminal/gitbash/command prompt in desired location and run below git command.
+    > git init
