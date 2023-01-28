@@ -1,0 +1,49 @@
+Q1: How check if git is available on your system?
+A1: by using any of below commands 
+    > git version 
+    > git --version
+
+
+Q2: How initialize a new Git respository?
+A2: with the help of command.
+    > git init
+
+
+Q3: How tell git about your name and email?
+A3: you can run below commands. 
+    > git config --global user.name "your_username"
+    > git config --global user.email "your_email"
+
+
+Q4: How to add a file to the staging area?
+A4: there are following ways to bring files into staging area. 
+    1) if you want to add all files to staging area at once then run below command
+    > git add . 
+    2) if you want to add selective file to staging area then use below command. 
+    > git add file_name
+
+
+Q5: How remove a file from the staging area?
+A5: you can use below command
+    > git rm --cached file_name
+
+
+Q6: How make a commit?
+A6: bring all files you want to commit in staging area then run below command. 
+    > git commit -m "any suitable commit message."
+
+
+Q7: How to send your changes to a remote repository?
+A7: first ensure that you are on same branch where you are about to commit. then you can use
+    below command. 
+    > git push -u origin branch_name
+
+
+Q8: What is the difference between clone and pull?
+A8: Both commands are used to get all code from remote repository but differnce is as below - 
+    I) git clone - 
+    when developer do not have the remote repositoy on local machine. then this command is 
+    useful.
+    II) git pull - 
+    Developer already have the remote repository on local machine but developer want to have 
+    revently commited changes on remote repository by other developers. 
