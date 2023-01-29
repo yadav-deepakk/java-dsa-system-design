@@ -1,0 +1,39 @@
+Q1: What is programming language?
+A1: A programming language is a high level lagnuage which is used to write a set of instructions
+    also known as algorithms which can be used by a computer to perform a operations. Pusrpose of 
+    a programming language is to simply instruct a computer to get a task done. There is a intermediary
+    (compiler) which converts these instructions into machine understandable machine level code. 
+
+
+Q2: Why do we need a programming language?
+A2: Programming languages are used to instruct the computer to perform task. A computer only 
+    understands bitstream of 0s and 1s (machine level language) which is not understandable by humans. 
+    So high level languages are introduced which have english like instructions and commands. 
+
+
+Q3: What are the features of Java?
+A3: Features of JAVA are given below - 
+    1) Object Oriented Programinng language (OOPs)
+    2) Plantform Independent 
+    3) Portable
+    4) Robust
+    5) Distributed
+    6) Simple and Secure
+
+
+Q4: What is an object?
+A4: In programming object is an instance of class which have some properties and some methods. 
+    In general any real life entity can be considered as an object. Any object has saome data,
+    some abilities/behaviours. 
+
+
+Q5: What is a class?
+A5: A class in object oriented programming is a blue print to an object. classes can be instsantiated
+    to create any object(s). class is a collection of properties and methods. Classes are used to create
+    modularity in the project and can reused whenever required.
+
+
+Q6: Explain about the main() method in Java?
+A6: Any program should have an entry point from where the execution starts. So main() method is
+    is used to create an entry point for program. It do not return any kind of value and have some
+    String argument to be passed(optional).
