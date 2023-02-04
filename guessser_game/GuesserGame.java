@@ -58,8 +58,8 @@ public class GuesserGame{
         try{
             game.launchGame();
         }catch(Exception e){
-            System.out.println(e.getStackTrace() + "\n" + e.getMessage());
-            System.out.print("Exception Occured...");
+            System.out.println(e.toString());
+            System.out.print("Above Exception Occured...");
         }
     }
 
