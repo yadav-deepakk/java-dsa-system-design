@@ -1,0 +1,97 @@
+Q1: What is statically and Dynamically typed Prorgamming language?
+A1: In some programming laguages we have to specify which type of data we are going to store into variables
+    before compile time, these programming languages are called statically typed programming language. 
+    Programming language in which we do not have to specify which type of data we are going to store into 
+    variables. They are capable to changing the data type as the value of variable changes during program 
+    execution. Such programming languages are known as dynamically typed programming language. 
+
+
+Q2: What is the variable in java?
+A2: Variable is a name(identifier) given to a memory location which can be used to store any specific type of 
+    data(information). This memory location is going to be used by programmer during the program execution in 
+    order to perform some operation and store value. 
+
+
+Q3: How to assign a value To variable?
+A3: We can create a variable then assign value to variables using assignment operator. some examples are 
+    given below.
+    eg.
+    1) int x; 
+       x = 100; 
+    2) float f1 = 10.23f;
+    3) long l1 = 132312345fL;
+
+
+Q4: What are primitive data types in java?
+A4: In any programming languge have to offer some build-in data types which can be used directly in our programs 
+    they are known as Prmitive data types. These data types are mainly integral data types(floating point and 
+    integers) and boolean and character. 
+    1) Integral types: they are devided into 2 category based on integer values they store. 
+    - To store integer values:
+        (i) byte:
+            used to store integer values from -128 to 127 range. 
+            byte data type's size is 1 byte(8 bits).
+        (ii) short:
+            used to store integer values from -2^15 to -2^15 -1.
+            short data type's size is 2 bytes (15 bits).
+        (iii) int: 
+            used to store integer values from -2^31 to -2^31 -1.
+            int data type's size is 4 bytes (32 bits).
+        (iv) long: 
+            this data type is used to store very large integer values ranging from -2^63 to 2^63 -1.
+            long data type's size is 8 bytes (64 bits).
+
+    - To store real values(floating point numbers)
+        (i) float: 
+            float is used to store floating numbers. float is used to store small values with low precision. 
+            size is 8 bytes(32 bits). 
+
+        (ii) double: 
+            double is used to store floating numbers but has double in size. double is used to store larger values 
+            with high precision. 
+            size is 8 bytes(64 bits). 
+ 
+    2) Boolean(boolean): it can store only 2 literals(values). Either 'true' or 'false'. 
+    3) Character(char): This data type is used to store ASCII characters. size is 4 bytes. 
+
+
+Q5: What are the identifiers in java?
+A5: Any name given to package, class, object or variables in java are known as identifiers. There are some rules
+    (restrictions) to create java idenfieres. 
+    (1) Java idenfieres must only contains letters(uppercase and lower case) and numbers. No other characters are
+    allowed. Apart from above, Only 2 special characters are allowed in java are '$' and '_'.
+    (2) Any identifier should not start with a number. 
+    (3) Java identifiers can be of any length, there is no special restriction but it is adviced to use sensible
+    names in java identifiers.
+    (4) method names and variable names are adviced to be written in camel case. class names are written in pascal
+    case. 
+
+
+Q6: List the operators in java?
+A6: Operators are used in java to perform some mathematical and logical operations. There are following types of 
+    operators in java:
+    1) Arithmetic operators
+    2) Assignment operator
+    3) Logical operators
+    4) Unary operators
+    5) Relational oprators
+    6) Conditional/Ternary Operator
+    7) Bitwise operators
+
+
+Q7: Explain about inrement and decrement operators and give an example?
+A7: Increament/Decrement(++/--) operators are operator which are applied on single operands. There are two types 
+    of increaments - preincrement(++op) and postincrement(op++), similarly There are two types of decreaments - 
+    predecrement(--op) and postdecrement(op--). In Pre(Increament/Decrement) first operation of increament or 
+    decreament is applied then whatever value is generated will be used in expression. Whereas in case of post
+    (increament/decreament) first operand value of oprand is used in the expression then the operation of pre - 
+    (increament/decreament) is applied. 
+
+    eg. 
+    int x, y, z;
+    x = 10;     // x=10, 
+    y = ++x;    // y=11 and x=11 (x is first increamented as it is a preincreament operation)
+    z = y--;    // z=11 and y=10 (y is first used in expression later decreamented by value 1)
+
+    System.out.println("x=" + x + " y="+ y + " z=" + z);
+    // output will be -> x=11 y=10 z=11
