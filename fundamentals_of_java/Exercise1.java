@@ -15,5 +15,9 @@ public class Exercise1 {
         int y = x++ + ++x + ++x + x--;
         //       10 + 12  +  13 +  13  => 48
         System.out.println("x=" + x + " y=" + y);
+
+        int x1=5;
+        x1 = ++x1 + x1++;
+        System.out.println("x=" + x1);
     }
 }
